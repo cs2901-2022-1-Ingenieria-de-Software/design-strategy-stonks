@@ -1,0 +1,7 @@
+organization=cs2901-2022-1-ingenieria-de-software
+projectKey=cs2901-2022-1-Ingenieria-de-Software_design-strategy-stonks
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.29017
+dashboardUrl=https://sonarcloud.io/dashboard?id=cs2901-2022-1-Ingenieria-de-Software_design-strategy-stonks
+ceTaskId=AYDVGHmanm_mkLK9MfSf
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYDVGHmanm_mkLK9MfSf

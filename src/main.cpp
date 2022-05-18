@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <memory>
 #include <string>
@@ -6,6 +5,25 @@
 #include <fstream>
 
 using namespace std;
+
+const int MAX_LENGTH_DATE = 10;
+const int MAX_LENGTH_CONCURRENCY = 3;
+class Tabla
+{
+public:
+    char date[MAX_LENGTH_DATE];
+    float open;
+    float high;
+    float low;
+    float close;
+    float volume;
+    char concurrency[MAX_LENGTH_CONCURRENCY];
+    void read(const std::string& line)
+    {
+        sscanf(line.c_str(),
+               "%[^,],%f,%f,%f,%f,%f,%[^,]", date, &open, &high, &low, &close, &volume, concurrency);
+    };
+};
 
 class Calculo
 {
@@ -20,7 +38,11 @@ public:
     PromedioApertura() = default;
     float execute(const std::vector<std::vector<float>> &data) override
     {
-        return 1;
+        float suma = 0;
+        for (const auto& lin : data) {
+            suma = suma + lin[1];
+        }
+        return suma / ((float) data.size());
     };
 };
 
@@ -30,7 +52,11 @@ public:
     PromedioCierre() = default;
     float execute(const std::vector<std::vector<float>> &data) override
     {
-        return 1;
+        float suma = 0;
+        for (const auto& lin : data) {
+            suma = suma + lin[4];
+        }
+        return suma / ((float) data.size());
     };
 };
 
@@ -52,10 +78,25 @@ private:
     std::vector<std::vector<float>> data;
 
 public:
-    Context(std::string filename){
+    explicit Context(const std::string& filename){
         // TODO: read file
-        ofstream fileRead(filename, std::ios::in);
-        if (fileRead.is_open()) {}
+        Tabla t{};
+        std::ifstream fileRead(filename, std::ios::in);
+        if (!fileRead.is_open())
+            throw std::invalid_argument("File not found");
+        std::string line;
+        while (getline(fileRead, line))
+        {
+            std::vector<float> temp;
+            t.read(line);
+            temp.push_back(t.open);
+            temp.push_back(t.high);
+            temp.push_back(t.low);
+            temp.push_back(t.close);
+            temp.push_back(t.volume);
+            data.push_back(temp);
+        }
+        fileRead.close();
     };
     void setStrategy(const shared_ptr<Calculo>& cal)
     {
@@ -72,8 +113,8 @@ class Pronostico
 private:
     Context context;
 public:
-    Pronostico(std::string filename): context{filename} {}
-    float run(std::string action)
+    explicit Pronostico(const std::string& filename): context{filename} {}
+    float run(const std::string& action)
     {
         if (action == "PromedioApertura") {
             context.setStrategy(make_shared<PromedioApertura>());
@@ -90,7 +131,7 @@ public:
 
 int main()
 {
-    auto p = make_shared<Pronostico>("pronostico.csv");
+    auto p = make_shared<Pronostico>("gold.csv");
     std::cout << std::to_string(p->run("PromedioApertura")) << std::endl;
     std::cout << std::to_string(p->run("PromedioCierre")) << std::endl;
     std::cout << std::to_string(p->run("MediaMovil")) << std::endl;
