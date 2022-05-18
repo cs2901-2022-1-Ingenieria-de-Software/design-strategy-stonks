@@ -29,6 +29,7 @@ class Calculo
 {
 public:
     Calculo() = default;
+  	virtual ~Calculo(){}
     virtual float execute(const std::vector<std::vector<float>> &data) = 0;
 };
 
@@ -36,6 +37,7 @@ class PromedioApertura : public Calculo
 {
 public:
     PromedioApertura() = default;
+    virtual ~PromedioApertura(){}
     float execute(const std::vector<std::vector<float>> &data) override
     {
         float suma = 0;
@@ -66,7 +68,12 @@ public:
     MediaMovil() = default;
     float execute(const std::vector<std::vector<float>> &data) override
     {
-        return 1;
+    	float suma = 0;
+         for(int i=data.size();i>data.size()-7;i--){
+         suma = suma + data[i][4];
+        }
+        return suma / 7;
+      
     };
 };
 
@@ -137,3 +144,51 @@ int main()
     std::cout << std::to_string(p->run("MediaMovil")) << std::endl;
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

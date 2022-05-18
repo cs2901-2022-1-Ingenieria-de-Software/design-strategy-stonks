@@ -1,531 +1,531 @@
-Tue May 17 21:55:42 2022: build-wrapper, version 6.33 (linux-x86)
-Tue May 17 21:55:42 2022: System name: Linux Nodename: Eric Release: 5.13.0-41-generic Version: #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022 Machine: x86_64
-Tue May 17 21:55:42 2022: socket path: /tmp/build-wrapper-socket.UVNphp
-Tue May 17 21:55:42 2022: dynamic library found: /home/ereiclo/repos/build-wrapper-linux-x86/libinterceptor-i686.so
-Tue May 17 21:55:42 2022: dynamic library found: /home/ereiclo/repos/build-wrapper-linux-x86/libinterceptor-x86_64.so
-Tue May 17 21:55:42 2022: dynamic library found: /home/ereiclo/repos/build-wrapper-linux-x86/libinterceptor-haswell.so
-Tue May 17 21:55:42 2022: cwd: </home/ereiclo/repos/tareas/design-strategy-stonks>
-Tue May 17 21:55:42 2022: command executed as: <build-wrapper-linux-x86-64 --out-dir bw-output>
-Tue May 17 21:55:42 2022: out-dir absolute path: </home/ereiclo/repos/tareas/design-strategy-stonks/bw-output>
-Tue May 17 21:55:42 2022: command line received: <cmake --build build>
-Tue May 17 21:55:42 2022: env 0: <SHELL=/bin/bash>
-Tue May 17 21:55:42 2022: env 1: <SESSION_MANAGER=local/Eric:@/tmp/.ICE-unix/2345,unix/Eric:/tmp/.ICE-unix/2345>
-Tue May 17 21:55:42 2022: env 2: <QT_ACCESSIBILITY=1>
-Tue May 17 21:55:42 2022: env 3: <COLORTERM=truecolor>
-Tue May 17 21:55:42 2022: env 4: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
-Tue May 17 21:55:42 2022: env 5: <NVM_INC=/home/ereiclo/.nvm/versions/node/v16.13.2/include/node>
-Tue May 17 21:55:42 2022: env 6: <XDG_MENU_PREFIX=gnome->
-Tue May 17 21:55:42 2022: env 7: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
-Tue May 17 21:55:42 2022: env 8: <LANGUAGE=es_PE:es>
-Tue May 17 21:55:42 2022: env 9: <GNOME_SHELL_SESSION_MODE=ubuntu>
-Tue May 17 21:55:42 2022: env 10: <SSH_AUTH_SOCK=/run/user/1000/keyring/ssh>
-Tue May 17 21:55:42 2022: env 11: <XMODIFIERS=@im=ibus>
-Tue May 17 21:55:42 2022: env 12: <DESKTOP_SESSION=ubuntu>
-Tue May 17 21:55:42 2022: env 13: <SSH_AGENT_PID=2311>
-Tue May 17 21:55:42 2022: env 14: <GTK_MODULES=gail:atk-bridge>
-Tue May 17 21:55:42 2022: env 15: <DBUS_STARTER_BUS_TYPE=session>
-Tue May 17 21:55:42 2022: env 16: <PWD=/home/ereiclo/repos/tareas/design-strategy-stonks>
-Tue May 17 21:55:42 2022: env 17: <LOGNAME=ereiclo>
-Tue May 17 21:55:42 2022: env 18: <XDG_SESSION_DESKTOP=ubuntu>
-Tue May 17 21:55:42 2022: env 19: <XDG_SESSION_TYPE=x11>
-Tue May 17 21:55:42 2022: env 20: <GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1>
-Tue May 17 21:55:42 2022: env 21: <XAUTHORITY=/run/user/1000/gdm/Xauthority>
-Tue May 17 21:55:42 2022: env 22: <WINDOWPATH=2>
-Tue May 17 21:55:42 2022: env 23: <HOME=/home/ereiclo>
-Tue May 17 21:55:42 2022: env 24: <USERNAME=ereiclo>
-Tue May 17 21:55:42 2022: env 25: <IM_CONFIG_PHASE=1>
-Tue May 17 21:55:42 2022: env 26: <LANG=es_PE.UTF-8>
-Tue May 17 21:55:42 2022: env 27: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
-Tue May 17 21:55:42 2022: env 28: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
-Tue May 17 21:55:42 2022: env 29: <VTE_VERSION=6003>
-Tue May 17 21:55:42 2022: env 30: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/3836dbec_9869_4ba6_8155_e1d3b2d7fd4a>
-Tue May 17 21:55:42 2022: env 31: <INVOCATION_ID=ecdfbd6142ac4174a55fc6a456837c53>
-Tue May 17 21:55:42 2022: env 32: <MANAGERPID=2119>
-Tue May 17 21:55:42 2022: env 33: <NVM_DIR=/home/ereiclo/.nvm>
-Tue May 17 21:55:42 2022: env 34: <LESSCLOSE=/usr/bin/lesspipe %s %s>
-Tue May 17 21:55:42 2022: env 35: <XDG_SESSION_CLASS=user>
-Tue May 17 21:55:42 2022: env 36: <TERM=xterm-256color>
-Tue May 17 21:55:42 2022: env 37: <LESSOPEN=| /usr/bin/lesspipe %s>
-Tue May 17 21:55:42 2022: env 38: <USER=ereiclo>
-Tue May 17 21:55:42 2022: env 39: <GNOME_TERMINAL_SERVICE=:1.142>
-Tue May 17 21:55:42 2022: env 40: <DISPLAY=:1>
-Tue May 17 21:55:42 2022: env 41: <SHLVL=1>
-Tue May 17 21:55:42 2022: env 42: <NVM_CD_FLAGS=>
-Tue May 17 21:55:42 2022: env 43: <QT_IM_MODULE=ibus>
-Tue May 17 21:55:42 2022: env 44: <DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=792d7cd85d59730f1188b79162843fc5>
-Tue May 17 21:55:42 2022: env 45: <XDG_RUNTIME_DIR=/run/user/1000>
-Tue May 17 21:55:42 2022: env 46: <SONAR_TOKEN=a69fb7333229b3b158e20df6ddaf549cc985ec2c>
-Tue May 17 21:55:42 2022: env 47: <JOURNAL_STREAM=8:53142>
-Tue May 17 21:55:42 2022: env 48: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
-Tue May 17 21:55:42 2022: env 49: <PATH=~/repos/build-wrapper-linux-x86:~/repos/sonar-scanner-4.7.0.2747-linux/bin:~/repos/sonar-scanner-4.7.0.2747-linux:/home/ereiclo/.nvm/versions/node/v16.13.2/bin:/home/ereiclo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
-Tue May 17 21:55:42 2022: env 50: <GDMSESSION=ubuntu>
-Tue May 17 21:55:42 2022: env 51: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=792d7cd85d59730f1188b79162843fc5>
-Tue May 17 21:55:42 2022: env 52: <NVM_BIN=/home/ereiclo/.nvm/versions/node/v16.13.2/bin>
-Tue May 17 21:55:42 2022: env 53: <OLDPWD=/home/ereiclo/repos/tareas/design-strategy-stonks/src>
-Tue May 17 21:55:42 2022: env 54: <_=/home/ereiclo/repos/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
-Tue May 17 21:55:42 2022: executing: <cmake --build build>
-Tue May 17 21:55:42 2022: initializing json file
-Tue May 17 21:55:42 2022: process created with pid: 20105
-Tue May 17 21:55:42 2022: parent pid: 20104
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks>
-Tue May 17 21:55:42 2022: executable: </home/ereiclo/repos/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
-Tue May 17 21:55:42 2022: argv[0]: <build-wrapper-linux-x86-64>
-Tue May 17 21:55:42 2022: argv[1]: <-c>
-Tue May 17 21:55:42 2022: argv[2]: <>
-Tue May 17 21:55:42 2022: argv[3]: <cmake>
-Tue May 17 21:55:42 2022: argv[4]: <--build>
-Tue May 17 21:55:42 2022: argv[5]: <build>
-Tue May 17 21:55:42 2022: skipping process with pid: 20105
-Tue May 17 21:55:42 2022: process created with pid: 20106
-Tue May 17 21:55:42 2022: parent pid: 20105
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks>
-Tue May 17 21:55:42 2022: executable: </usr/bin/cmake>
-Tue May 17 21:55:42 2022: argv[0]: <cmake>
-Tue May 17 21:55:42 2022: argv[1]: <--build>
-Tue May 17 21:55:42 2022: argv[2]: <build>
-Tue May 17 21:55:42 2022: skipping process with pid: 20106
-Tue May 17 21:55:42 2022: process created with pid: 20107
-Tue May 17 21:55:42 2022: parent pid: 20106
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/bin/make>
-Tue May 17 21:55:42 2022: argv[0]: </usr/bin/make>
-Tue May 17 21:55:42 2022: skipping process with pid: 20107
-Tue May 17 21:55:42 2022: process created with pid: 20108
-Tue May 17 21:55:42 2022: parent pid: 20107
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/bin/cmake>
-Tue May 17 21:55:42 2022: argv[0]: </usr/bin/cmake>
-Tue May 17 21:55:42 2022: argv[1]: <-S/home/ereiclo/repos/tareas/design-strategy-stonks>
-Tue May 17 21:55:42 2022: argv[2]: <-B/home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: argv[3]: <--check-build-system>
-Tue May 17 21:55:42 2022: argv[4]: <CMakeFiles/Makefile.cmake>
-Tue May 17 21:55:42 2022: argv[5]: <0>
-Tue May 17 21:55:42 2022: skipping process with pid: 20108
-Tue May 17 21:55:42 2022: process created with pid: 20109
-Tue May 17 21:55:42 2022: parent pid: 20107
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/bin/cmake>
-Tue May 17 21:55:42 2022: argv[0]: </usr/bin/cmake>
-Tue May 17 21:55:42 2022: argv[1]: <-E>
-Tue May 17 21:55:42 2022: argv[2]: <cmake_progress_start>
-Tue May 17 21:55:42 2022: argv[3]: </home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles>
-Tue May 17 21:55:42 2022: argv[4]: </home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles/progress.marks>
-Tue May 17 21:55:42 2022: skipping process with pid: 20109
-Tue May 17 21:55:42 2022: process created with pid: 20110
-Tue May 17 21:55:42 2022: parent pid: 20107
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/bin/make>
-Tue May 17 21:55:42 2022: argv[0]: </usr/bin/make>
-Tue May 17 21:55:42 2022: argv[1]: <-f>
-Tue May 17 21:55:42 2022: argv[2]: <CMakeFiles/Makefile2>
-Tue May 17 21:55:42 2022: argv[3]: <all>
-Tue May 17 21:55:42 2022: skipping process with pid: 20110
-Tue May 17 21:55:42 2022: process created with pid: 20111
-Tue May 17 21:55:42 2022: parent pid: 20110
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/bin/make>
-Tue May 17 21:55:42 2022: argv[0]: </usr/bin/make>
-Tue May 17 21:55:42 2022: argv[1]: <-f>
-Tue May 17 21:55:42 2022: argv[2]: <CMakeFiles/strategy-stonks.dir/build.make>
-Tue May 17 21:55:42 2022: argv[3]: <CMakeFiles/strategy-stonks.dir/depend>
-Tue May 17 21:55:42 2022: skipping process with pid: 20111
-Tue May 17 21:55:42 2022: process created with pid: 20112
-Tue May 17 21:55:42 2022: parent pid: 20111
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/bin/dash>
-Tue May 17 21:55:42 2022: argv[0]: </bin/sh>
-Tue May 17 21:55:42 2022: argv[1]: <-c>
-Tue May 17 21:55:42 2022: argv[2]: <cd /home/ereiclo/repos/tareas/design-strategy-stonks/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ereiclo/repos/tareas/design-strategy-stonks /home/ereiclo/repos/tareas/design-strategy-stonks /home/ereiclo/repos/tareas/design-strategy-stonks/build /home/ereiclo/repos/tareas/design-strategy-stonks/build /home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles/strategy-stonks.dir/DependInfo.cmake --color=>
-Tue May 17 21:55:42 2022: skipping process with pid: 20112
-Tue May 17 21:55:42 2022: process created with pid: 20113
-Tue May 17 21:55:42 2022: parent pid: 20112
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/bin/cmake>
-Tue May 17 21:55:42 2022: argv[0]: </usr/bin/cmake>
-Tue May 17 21:55:42 2022: argv[1]: <-E>
-Tue May 17 21:55:42 2022: argv[2]: <cmake_depends>
-Tue May 17 21:55:42 2022: argv[3]: <Unix Makefiles>
-Tue May 17 21:55:42 2022: argv[4]: </home/ereiclo/repos/tareas/design-strategy-stonks>
-Tue May 17 21:55:42 2022: argv[5]: </home/ereiclo/repos/tareas/design-strategy-stonks>
-Tue May 17 21:55:42 2022: argv[6]: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: argv[7]: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: argv[8]: </home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles/strategy-stonks.dir/DependInfo.cmake>
-Tue May 17 21:55:42 2022: argv[9]: <--color=>
-Tue May 17 21:55:42 2022: skipping process with pid: 20113
-Tue May 17 21:55:42 2022: process created with pid: 20114
-Tue May 17 21:55:42 2022: parent pid: 20110
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/bin/make>
-Tue May 17 21:55:42 2022: argv[0]: </usr/bin/make>
-Tue May 17 21:55:42 2022: argv[1]: <-f>
-Tue May 17 21:55:42 2022: argv[2]: <CMakeFiles/strategy-stonks.dir/build.make>
-Tue May 17 21:55:42 2022: argv[3]: <CMakeFiles/strategy-stonks.dir/build>
-Tue May 17 21:55:42 2022: skipping process with pid: 20114
-Tue May 17 21:55:42 2022: process created with pid: 20115
-Tue May 17 21:55:42 2022: parent pid: 20114
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/bin/dash>
-Tue May 17 21:55:42 2022: argv[0]: </bin/sh>
-Tue May 17 21:55:42 2022: argv[1]: <-c>
-Tue May 17 21:55:42 2022: argv[2]: </usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/strategy-stonks.dir/src/main.cpp.o">
-Tue May 17 21:55:42 2022: skipping process with pid: 20115
-Tue May 17 21:55:42 2022: process created with pid: 20116
-Tue May 17 21:55:42 2022: parent pid: 20115
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/bin/cmake>
-Tue May 17 21:55:42 2022: argv[0]: </usr/bin/cmake>
-Tue May 17 21:55:42 2022: argv[1]: <-E>
-Tue May 17 21:55:42 2022: argv[2]: <cmake_echo_color>
-Tue May 17 21:55:42 2022: argv[3]: <--switch=>
-Tue May 17 21:55:42 2022: argv[4]: <--green>
-Tue May 17 21:55:42 2022: argv[5]: <--progress-dir=/home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles>
-Tue May 17 21:55:42 2022: argv[6]: <--progress-num=1>
-Tue May 17 21:55:42 2022: argv[7]: <Building CXX object CMakeFiles/strategy-stonks.dir/src/main.cpp.o>
-Tue May 17 21:55:42 2022: skipping process with pid: 20116
-Tue May 17 21:55:42 2022: process created with pid: 20117
-Tue May 17 21:55:42 2022: parent pid: 20114
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/bin/x86_64-linux-gnu-g++-9>
-Tue May 17 21:55:42 2022: argv[0]: </usr/bin/c++>
-Tue May 17 21:55:42 2022: argv[1]: <-std=gnu++17>
-Tue May 17 21:55:42 2022: argv[2]: <-o>
-Tue May 17 21:55:42 2022: argv[3]: <CMakeFiles/strategy-stonks.dir/src/main.cpp.o>
-Tue May 17 21:55:42 2022: argv[4]: <-c>
-Tue May 17 21:55:42 2022: argv[5]: </home/ereiclo/repos/tareas/design-strategy-stonks/src/main.cpp>
-Tue May 17 21:55:42 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.UVNphp>
-Tue May 17 21:55:42 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/ereiclo/repos/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
-Tue May 17 21:55:42 2022: envp[2]: <DESKTOP_SESSION=ubuntu>
-Tue May 17 21:55:42 2022: envp[3]: <XDG_SESSION_CLASS=user>
-Tue May 17 21:55:42 2022: envp[4]: <XDG_SESSION_TYPE=x11>
-Tue May 17 21:55:42 2022: envp[5]: <NVM_INC=/home/ereiclo/.nvm/versions/node/v16.13.2/include/node>
-Tue May 17 21:55:42 2022: envp[6]: <XAUTHORITY=/run/user/1000/gdm/Xauthority>
-Tue May 17 21:55:42 2022: envp[7]: <GDMSESSION=ubuntu>
-Tue May 17 21:55:42 2022: envp[8]: <XMODIFIERS=@im=ibus>
-Tue May 17 21:55:42 2022: envp[9]: <SHELL=/bin/bash>
-Tue May 17 21:55:42 2022: envp[10]: <VTE_VERSION=6003>
-Tue May 17 21:55:42 2022: envp[11]: <JOURNAL_STREAM=8:53142>
-Tue May 17 21:55:42 2022: envp[12]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
-Tue May 17 21:55:42 2022: envp[13]: <IM_CONFIG_PHASE=1>
-Tue May 17 21:55:42 2022: envp[14]: <USERNAME=ereiclo>
-Tue May 17 21:55:42 2022: envp[15]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
-Tue May 17 21:55:42 2022: envp[16]: <_=/home/ereiclo/repos/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
-Tue May 17 21:55:42 2022: envp[17]: <MANAGERPID=2119>
-Tue May 17 21:55:42 2022: envp[18]: <LESSOPEN=| /usr/bin/lesspipe %s>
-Tue May 17 21:55:42 2022: envp[19]: <PATH=~/repos/build-wrapper-linux-x86:~/repos/sonar-scanner-4.7.0.2747-linux/bin:~/repos/sonar-scanner-4.7.0.2747-linux:/home/ereiclo/.nvm/versions/node/v16.13.2/bin:/home/ereiclo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
-Tue May 17 21:55:42 2022: envp[20]: <GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1>
-Tue May 17 21:55:42 2022: envp[21]: <SESSION_MANAGER=local/Eric:@/tmp/.ICE-unix/2345,unix/Eric:/tmp/.ICE-unix/2345>
-Tue May 17 21:55:42 2022: envp[22]: <XDG_RUNTIME_DIR=/run/user/1000>
-Tue May 17 21:55:42 2022: envp[23]: <SONAR_TOKEN=a69fb7333229b3b158e20df6ddaf549cc985ec2c>
-Tue May 17 21:55:42 2022: envp[24]: <NVM_BIN=/home/ereiclo/.nvm/versions/node/v16.13.2/bin>
-Tue May 17 21:55:42 2022: envp[25]: <XDG_MENU_PREFIX=gnome->
-Tue May 17 21:55:42 2022: envp[26]: <INVOCATION_ID=ecdfbd6142ac4174a55fc6a456837c53>
-Tue May 17 21:55:42 2022: envp[27]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
-Tue May 17 21:55:42 2022: envp[28]: <XDG_SESSION_DESKTOP=ubuntu>
-Tue May 17 21:55:42 2022: envp[29]: <SSH_AUTH_SOCK=/run/user/1000/keyring/ssh>
-Tue May 17 21:55:42 2022: envp[30]: <DISPLAY=:1>
-Tue May 17 21:55:42 2022: envp[31]: <HOME=/home/ereiclo>
-Tue May 17 21:55:42 2022: envp[32]: <PWD=/home/ereiclo/repos/tareas/design-strategy-stonks>
-Tue May 17 21:55:42 2022: envp[33]: <SSH_AGENT_PID=2311>
-Tue May 17 21:55:42 2022: envp[34]: <GTK_MODULES=gail:atk-bridge>
-Tue May 17 21:55:42 2022: envp[35]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=792d7cd85d59730f1188b79162843fc5>
-Tue May 17 21:55:42 2022: envp[36]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
-Tue May 17 21:55:42 2022: envp[37]: <LOGNAME=ereiclo>
-Tue May 17 21:55:42 2022: envp[38]: <NVM_CD_FLAGS=>
-Tue May 17 21:55:42 2022: envp[39]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
-Tue May 17 21:55:42 2022: envp[40]: <COLORTERM=truecolor>
-Tue May 17 21:55:42 2022: envp[41]: <QT_IM_MODULE=ibus>
-Tue May 17 21:55:42 2022: envp[42]: <SHLVL=1>
-Tue May 17 21:55:42 2022: envp[43]: <GNOME_SHELL_SESSION_MODE=ubuntu>
-Tue May 17 21:55:42 2022: envp[44]: <USER=ereiclo>
-Tue May 17 21:55:42 2022: envp[45]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
-Tue May 17 21:55:42 2022: envp[46]: <OLDPWD=/home/ereiclo/repos/tareas/design-strategy-stonks/src>
-Tue May 17 21:55:42 2022: envp[47]: <LANGUAGE=es_PE:es>
-Tue May 17 21:55:42 2022: envp[48]: <MAKEFLAGS=s>
-Tue May 17 21:55:42 2022: envp[49]: <MFLAGS=-s>
-Tue May 17 21:55:42 2022: envp[50]: <NVM_DIR=/home/ereiclo/.nvm>
-Tue May 17 21:55:42 2022: envp[51]: <MAKE_TERMOUT=/dev/pts/1>
-Tue May 17 21:55:42 2022: envp[52]: <QT_ACCESSIBILITY=1>
-Tue May 17 21:55:42 2022: envp[53]: <DBUS_STARTER_BUS_TYPE=session>
-Tue May 17 21:55:42 2022: envp[54]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/3836dbec_9869_4ba6_8155_e1d3b2d7fd4a>
-Tue May 17 21:55:42 2022: envp[55]: <GNOME_TERMINAL_SERVICE=:1.142>
-Tue May 17 21:55:42 2022: envp[56]: <WINDOWPATH=2>
-Tue May 17 21:55:42 2022: envp[57]: <MAKE_TERMERR=/dev/pts/1>
-Tue May 17 21:55:42 2022: envp[58]: <LANG=es_PE.UTF-8>
-Tue May 17 21:55:42 2022: envp[59]: <TERM=xterm-256color>
-Tue May 17 21:55:42 2022: envp[60]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=792d7cd85d59730f1188b79162843fc5>
-Tue May 17 21:55:42 2022: envp[61]: <MAKELEVEL=3>
-Tue May 17 21:55:42 2022: envp[62]: <LD_PRELOAD=>
-Tue May 17 21:55:42 2022: process created with pid: 20118
-Tue May 17 21:55:42 2022: parent pid: 20117
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
-Tue May 17 21:55:42 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
-Tue May 17 21:55:42 2022: argv[1]: <-quiet>
-Tue May 17 21:55:42 2022: argv[2]: <-imultiarch>
-Tue May 17 21:55:42 2022: argv[3]: <x86_64-linux-gnu>
-Tue May 17 21:55:42 2022: argv[4]: <-D_GNU_SOURCE>
-Tue May 17 21:55:42 2022: argv[5]: </home/ereiclo/repos/tareas/design-strategy-stonks/src/main.cpp>
-Tue May 17 21:55:42 2022: argv[6]: <-quiet>
-Tue May 17 21:55:42 2022: argv[7]: <-dumpbase>
-Tue May 17 21:55:42 2022: argv[8]: <main.cpp>
-Tue May 17 21:55:42 2022: argv[9]: <-mtune=generic>
-Tue May 17 21:55:42 2022: argv[10]: <-march=x86-64>
-Tue May 17 21:55:42 2022: argv[11]: <-auxbase-strip>
-Tue May 17 21:55:42 2022: argv[12]: <CMakeFiles/strategy-stonks.dir/src/main.cpp.o>
-Tue May 17 21:55:42 2022: argv[13]: <-std=gnu++17>
-Tue May 17 21:55:42 2022: argv[14]: <-fasynchronous-unwind-tables>
-Tue May 17 21:55:42 2022: argv[15]: <-fstack-protector-strong>
-Tue May 17 21:55:42 2022: argv[16]: <-Wformat>
-Tue May 17 21:55:42 2022: argv[17]: <-Wformat-security>
-Tue May 17 21:55:42 2022: argv[18]: <-fstack-clash-protection>
-Tue May 17 21:55:42 2022: argv[19]: <-fcf-protection>
-Tue May 17 21:55:42 2022: argv[20]: <-o>
-Tue May 17 21:55:42 2022: argv[21]: </tmp/ccLunAHn.s>
-Tue May 17 21:55:42 2022: skipping process with pid: 20118
-Tue May 17 21:55:42 2022: process created with pid: 20119
-Tue May 17 21:55:42 2022: parent pid: 20117
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/bin/x86_64-linux-gnu-as>
-Tue May 17 21:55:42 2022: argv[0]: <as>
-Tue May 17 21:55:42 2022: argv[1]: <--64>
-Tue May 17 21:55:42 2022: argv[2]: <-o>
-Tue May 17 21:55:42 2022: argv[3]: <CMakeFiles/strategy-stonks.dir/src/main.cpp.o>
-Tue May 17 21:55:42 2022: argv[4]: </tmp/ccLunAHn.s>
-Tue May 17 21:55:42 2022: skipping process with pid: 20119
-Tue May 17 21:55:42 2022: process created with pid: 20120
-Tue May 17 21:55:42 2022: parent pid: 20114
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/bin/dash>
-Tue May 17 21:55:42 2022: argv[0]: </bin/sh>
-Tue May 17 21:55:42 2022: argv[1]: <-c>
-Tue May 17 21:55:42 2022: argv[2]: </usr/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles --progress-num=2 "Linking CXX executable strategy-stonks">
-Tue May 17 21:55:42 2022: skipping process with pid: 20120
-Tue May 17 21:55:42 2022: process created with pid: 20121
-Tue May 17 21:55:42 2022: parent pid: 20120
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/bin/cmake>
-Tue May 17 21:55:42 2022: argv[0]: </usr/bin/cmake>
-Tue May 17 21:55:42 2022: argv[1]: <-E>
-Tue May 17 21:55:42 2022: argv[2]: <cmake_echo_color>
-Tue May 17 21:55:42 2022: argv[3]: <--switch=>
-Tue May 17 21:55:42 2022: argv[4]: <--green>
-Tue May 17 21:55:42 2022: argv[5]: <--bold>
-Tue May 17 21:55:42 2022: argv[6]: <--progress-dir=/home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles>
-Tue May 17 21:55:42 2022: argv[7]: <--progress-num=2>
-Tue May 17 21:55:42 2022: argv[8]: <Linking CXX executable strategy-stonks>
-Tue May 17 21:55:42 2022: skipping process with pid: 20121
-Tue May 17 21:55:42 2022: process created with pid: 20122
-Tue May 17 21:55:42 2022: parent pid: 20114
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/bin/cmake>
-Tue May 17 21:55:42 2022: argv[0]: </usr/bin/cmake>
-Tue May 17 21:55:42 2022: argv[1]: <-E>
-Tue May 17 21:55:42 2022: argv[2]: <cmake_link_script>
-Tue May 17 21:55:42 2022: argv[3]: <CMakeFiles/strategy-stonks.dir/link.txt>
-Tue May 17 21:55:42 2022: argv[4]: <--verbose=>
-Tue May 17 21:55:42 2022: skipping process with pid: 20122
-Tue May 17 21:55:42 2022: process created with pid: 20123
-Tue May 17 21:55:42 2022: parent pid: 20122
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/bin/x86_64-linux-gnu-g++-9>
-Tue May 17 21:55:42 2022: argv[0]: </usr/bin/c++>
-Tue May 17 21:55:42 2022: argv[1]: <CMakeFiles/strategy-stonks.dir/src/main.cpp.o>
-Tue May 17 21:55:42 2022: argv[2]: <-o>
-Tue May 17 21:55:42 2022: argv[3]: <strategy-stonks>
-Tue May 17 21:55:42 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.UVNphp>
-Tue May 17 21:55:42 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/ereiclo/repos/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
-Tue May 17 21:55:42 2022: envp[2]: <DESKTOP_SESSION=ubuntu>
-Tue May 17 21:55:42 2022: envp[3]: <XDG_SESSION_CLASS=user>
-Tue May 17 21:55:42 2022: envp[4]: <XDG_SESSION_TYPE=x11>
-Tue May 17 21:55:42 2022: envp[5]: <NVM_INC=/home/ereiclo/.nvm/versions/node/v16.13.2/include/node>
-Tue May 17 21:55:42 2022: envp[6]: <XAUTHORITY=/run/user/1000/gdm/Xauthority>
-Tue May 17 21:55:42 2022: envp[7]: <GDMSESSION=ubuntu>
-Tue May 17 21:55:42 2022: envp[8]: <XMODIFIERS=@im=ibus>
-Tue May 17 21:55:42 2022: envp[9]: <SHELL=/bin/bash>
-Tue May 17 21:55:42 2022: envp[10]: <VTE_VERSION=6003>
-Tue May 17 21:55:42 2022: envp[11]: <JOURNAL_STREAM=8:53142>
-Tue May 17 21:55:42 2022: envp[12]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
-Tue May 17 21:55:42 2022: envp[13]: <IM_CONFIG_PHASE=1>
-Tue May 17 21:55:42 2022: envp[14]: <USERNAME=ereiclo>
-Tue May 17 21:55:42 2022: envp[15]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
-Tue May 17 21:55:42 2022: envp[16]: <_=/home/ereiclo/repos/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
-Tue May 17 21:55:42 2022: envp[17]: <MANAGERPID=2119>
-Tue May 17 21:55:42 2022: envp[18]: <LESSOPEN=| /usr/bin/lesspipe %s>
-Tue May 17 21:55:42 2022: envp[19]: <PATH=~/repos/build-wrapper-linux-x86:~/repos/sonar-scanner-4.7.0.2747-linux/bin:~/repos/sonar-scanner-4.7.0.2747-linux:/home/ereiclo/.nvm/versions/node/v16.13.2/bin:/home/ereiclo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
-Tue May 17 21:55:42 2022: envp[20]: <GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1>
-Tue May 17 21:55:42 2022: envp[21]: <SESSION_MANAGER=local/Eric:@/tmp/.ICE-unix/2345,unix/Eric:/tmp/.ICE-unix/2345>
-Tue May 17 21:55:42 2022: envp[22]: <XDG_RUNTIME_DIR=/run/user/1000>
-Tue May 17 21:55:42 2022: envp[23]: <SONAR_TOKEN=a69fb7333229b3b158e20df6ddaf549cc985ec2c>
-Tue May 17 21:55:42 2022: envp[24]: <NVM_BIN=/home/ereiclo/.nvm/versions/node/v16.13.2/bin>
-Tue May 17 21:55:42 2022: envp[25]: <XDG_MENU_PREFIX=gnome->
-Tue May 17 21:55:42 2022: envp[26]: <INVOCATION_ID=ecdfbd6142ac4174a55fc6a456837c53>
-Tue May 17 21:55:42 2022: envp[27]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
-Tue May 17 21:55:42 2022: envp[28]: <XDG_SESSION_DESKTOP=ubuntu>
-Tue May 17 21:55:42 2022: envp[29]: <SSH_AUTH_SOCK=/run/user/1000/keyring/ssh>
-Tue May 17 21:55:42 2022: envp[30]: <DISPLAY=:1>
-Tue May 17 21:55:42 2022: envp[31]: <HOME=/home/ereiclo>
-Tue May 17 21:55:42 2022: envp[32]: <PWD=/home/ereiclo/repos/tareas/design-strategy-stonks>
-Tue May 17 21:55:42 2022: envp[33]: <SSH_AGENT_PID=2311>
-Tue May 17 21:55:42 2022: envp[34]: <GTK_MODULES=gail:atk-bridge>
-Tue May 17 21:55:42 2022: envp[35]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=792d7cd85d59730f1188b79162843fc5>
-Tue May 17 21:55:42 2022: envp[36]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
-Tue May 17 21:55:42 2022: envp[37]: <LOGNAME=ereiclo>
-Tue May 17 21:55:42 2022: envp[38]: <NVM_CD_FLAGS=>
-Tue May 17 21:55:42 2022: envp[39]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
-Tue May 17 21:55:42 2022: envp[40]: <COLORTERM=truecolor>
-Tue May 17 21:55:42 2022: envp[41]: <QT_IM_MODULE=ibus>
-Tue May 17 21:55:42 2022: envp[42]: <SHLVL=1>
-Tue May 17 21:55:42 2022: envp[43]: <GNOME_SHELL_SESSION_MODE=ubuntu>
-Tue May 17 21:55:42 2022: envp[44]: <USER=ereiclo>
-Tue May 17 21:55:42 2022: envp[45]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
-Tue May 17 21:55:42 2022: envp[46]: <OLDPWD=/home/ereiclo/repos/tareas/design-strategy-stonks/src>
-Tue May 17 21:55:42 2022: envp[47]: <LANGUAGE=es_PE:es>
-Tue May 17 21:55:42 2022: envp[48]: <MAKEFLAGS=s>
-Tue May 17 21:55:42 2022: envp[49]: <MFLAGS=-s>
-Tue May 17 21:55:42 2022: envp[50]: <NVM_DIR=/home/ereiclo/.nvm>
-Tue May 17 21:55:42 2022: envp[51]: <MAKE_TERMOUT=/dev/pts/1>
-Tue May 17 21:55:42 2022: envp[52]: <QT_ACCESSIBILITY=1>
-Tue May 17 21:55:42 2022: envp[53]: <DBUS_STARTER_BUS_TYPE=session>
-Tue May 17 21:55:42 2022: envp[54]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/3836dbec_9869_4ba6_8155_e1d3b2d7fd4a>
-Tue May 17 21:55:42 2022: envp[55]: <GNOME_TERMINAL_SERVICE=:1.142>
-Tue May 17 21:55:42 2022: envp[56]: <WINDOWPATH=2>
-Tue May 17 21:55:42 2022: envp[57]: <MAKE_TERMERR=/dev/pts/1>
-Tue May 17 21:55:42 2022: envp[58]: <LANG=es_PE.UTF-8>
-Tue May 17 21:55:42 2022: envp[59]: <TERM=xterm-256color>
-Tue May 17 21:55:42 2022: envp[60]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=792d7cd85d59730f1188b79162843fc5>
-Tue May 17 21:55:42 2022: envp[61]: <MAKELEVEL=3>
-Tue May 17 21:55:42 2022: envp[62]: <LD_PRELOAD=>
-Tue May 17 21:55:42 2022: process created with pid: 20124
-Tue May 17 21:55:42 2022: parent pid: 20123
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/collect2>
-Tue May 17 21:55:42 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/collect2>
-Tue May 17 21:55:42 2022: argv[1]: <-plugin>
-Tue May 17 21:55:42 2022: argv[2]: </usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so>
-Tue May 17 21:55:42 2022: argv[3]: <-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper>
-Tue May 17 21:55:42 2022: argv[4]: <-plugin-opt=-fresolution=/tmp/ccp9qqAN.res>
-Tue May 17 21:55:42 2022: argv[5]: <-plugin-opt=-pass-through=-lgcc_s>
-Tue May 17 21:55:42 2022: argv[6]: <-plugin-opt=-pass-through=-lgcc>
-Tue May 17 21:55:42 2022: argv[7]: <-plugin-opt=-pass-through=-lc>
-Tue May 17 21:55:42 2022: argv[8]: <-plugin-opt=-pass-through=-lgcc_s>
-Tue May 17 21:55:42 2022: argv[9]: <-plugin-opt=-pass-through=-lgcc>
-Tue May 17 21:55:42 2022: argv[10]: <--build-id>
-Tue May 17 21:55:42 2022: argv[11]: <--eh-frame-hdr>
-Tue May 17 21:55:42 2022: argv[12]: <-m>
-Tue May 17 21:55:42 2022: argv[13]: <elf_x86_64>
-Tue May 17 21:55:42 2022: argv[14]: <--hash-style=gnu>
-Tue May 17 21:55:42 2022: argv[15]: <--as-needed>
-Tue May 17 21:55:42 2022: argv[16]: <-dynamic-linker>
-Tue May 17 21:55:42 2022: argv[17]: </lib64/ld-linux-x86-64.so.2>
-Tue May 17 21:55:42 2022: argv[18]: <-pie>
-Tue May 17 21:55:42 2022: argv[19]: <-z>
-Tue May 17 21:55:42 2022: argv[20]: <now>
-Tue May 17 21:55:42 2022: argv[21]: <-z>
-Tue May 17 21:55:42 2022: argv[22]: <relro>
-Tue May 17 21:55:42 2022: argv[23]: <-o>
-Tue May 17 21:55:42 2022: argv[24]: <strategy-stonks>
-Tue May 17 21:55:42 2022: argv[25]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o>
-Tue May 17 21:55:42 2022: argv[26]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o>
-Tue May 17 21:55:42 2022: argv[27]: </usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o>
-Tue May 17 21:55:42 2022: argv[28]: <-L/usr/lib/gcc/x86_64-linux-gnu/9>
-Tue May 17 21:55:42 2022: argv[29]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu>
-Tue May 17 21:55:42 2022: argv[30]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib>
-Tue May 17 21:55:42 2022: argv[31]: <-L/lib/x86_64-linux-gnu>
-Tue May 17 21:55:42 2022: argv[32]: <-L/lib/../lib>
-Tue May 17 21:55:42 2022: argv[33]: <-L/usr/lib/x86_64-linux-gnu>
-Tue May 17 21:55:42 2022: argv[34]: <-L/usr/lib/../lib>
-Tue May 17 21:55:42 2022: argv[35]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..>
-Tue May 17 21:55:42 2022: argv[36]: <CMakeFiles/strategy-stonks.dir/src/main.cpp.o>
-Tue May 17 21:55:42 2022: argv[37]: <-lstdc++>
-Tue May 17 21:55:42 2022: argv[38]: <-lm>
-Tue May 17 21:55:42 2022: argv[39]: <-lgcc_s>
-Tue May 17 21:55:42 2022: argv[40]: <-lgcc>
-Tue May 17 21:55:42 2022: argv[41]: <-lc>
-Tue May 17 21:55:42 2022: argv[42]: <-lgcc_s>
-Tue May 17 21:55:42 2022: argv[43]: <-lgcc>
-Tue May 17 21:55:42 2022: argv[44]: </usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o>
-Tue May 17 21:55:42 2022: argv[45]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o>
-Tue May 17 21:55:42 2022: skipping process with pid: 20124
-Tue May 17 21:55:42 2022: process created with pid: 20125
-Tue May 17 21:55:42 2022: parent pid: 20124
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/bin/x86_64-linux-gnu-ld.bfd>
-Tue May 17 21:55:42 2022: argv[0]: </usr/bin/ld>
-Tue May 17 21:55:42 2022: argv[1]: <-plugin>
-Tue May 17 21:55:42 2022: argv[2]: </usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so>
-Tue May 17 21:55:42 2022: argv[3]: <-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper>
-Tue May 17 21:55:42 2022: argv[4]: <-plugin-opt=-fresolution=/tmp/ccp9qqAN.res>
-Tue May 17 21:55:42 2022: argv[5]: <-plugin-opt=-pass-through=-lgcc_s>
-Tue May 17 21:55:42 2022: argv[6]: <-plugin-opt=-pass-through=-lgcc>
-Tue May 17 21:55:42 2022: argv[7]: <-plugin-opt=-pass-through=-lc>
-Tue May 17 21:55:42 2022: argv[8]: <-plugin-opt=-pass-through=-lgcc_s>
-Tue May 17 21:55:42 2022: argv[9]: <-plugin-opt=-pass-through=-lgcc>
-Tue May 17 21:55:42 2022: argv[10]: <--build-id>
-Tue May 17 21:55:42 2022: argv[11]: <--eh-frame-hdr>
-Tue May 17 21:55:42 2022: argv[12]: <-m>
-Tue May 17 21:55:42 2022: argv[13]: <elf_x86_64>
-Tue May 17 21:55:42 2022: argv[14]: <--hash-style=gnu>
-Tue May 17 21:55:42 2022: argv[15]: <--as-needed>
-Tue May 17 21:55:42 2022: argv[16]: <-dynamic-linker>
-Tue May 17 21:55:42 2022: argv[17]: </lib64/ld-linux-x86-64.so.2>
-Tue May 17 21:55:42 2022: argv[18]: <-pie>
-Tue May 17 21:55:42 2022: argv[19]: <-z>
-Tue May 17 21:55:42 2022: argv[20]: <now>
-Tue May 17 21:55:42 2022: argv[21]: <-z>
-Tue May 17 21:55:42 2022: argv[22]: <relro>
-Tue May 17 21:55:42 2022: argv[23]: <-o>
-Tue May 17 21:55:42 2022: argv[24]: <strategy-stonks>
-Tue May 17 21:55:42 2022: argv[25]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o>
-Tue May 17 21:55:42 2022: argv[26]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o>
-Tue May 17 21:55:42 2022: argv[27]: </usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o>
-Tue May 17 21:55:42 2022: argv[28]: <-L/usr/lib/gcc/x86_64-linux-gnu/9>
-Tue May 17 21:55:42 2022: argv[29]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu>
-Tue May 17 21:55:42 2022: argv[30]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib>
-Tue May 17 21:55:42 2022: argv[31]: <-L/lib/x86_64-linux-gnu>
-Tue May 17 21:55:42 2022: argv[32]: <-L/lib/../lib>
-Tue May 17 21:55:42 2022: argv[33]: <-L/usr/lib/x86_64-linux-gnu>
-Tue May 17 21:55:42 2022: argv[34]: <-L/usr/lib/../lib>
-Tue May 17 21:55:42 2022: argv[35]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..>
-Tue May 17 21:55:42 2022: argv[36]: <CMakeFiles/strategy-stonks.dir/src/main.cpp.o>
-Tue May 17 21:55:42 2022: argv[37]: <-lstdc++>
-Tue May 17 21:55:42 2022: argv[38]: <-lm>
-Tue May 17 21:55:42 2022: argv[39]: <-lgcc_s>
-Tue May 17 21:55:42 2022: argv[40]: <-lgcc>
-Tue May 17 21:55:42 2022: argv[41]: <-lc>
-Tue May 17 21:55:42 2022: argv[42]: <-lgcc_s>
-Tue May 17 21:55:42 2022: argv[43]: <-lgcc>
-Tue May 17 21:55:42 2022: argv[44]: </usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o>
-Tue May 17 21:55:42 2022: argv[45]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o>
-Tue May 17 21:55:42 2022: skipping process with pid: 20125
-Tue May 17 21:55:42 2022: process created with pid: 20126
-Tue May 17 21:55:42 2022: parent pid: 20110
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/bin/dash>
-Tue May 17 21:55:42 2022: argv[0]: </bin/sh>
-Tue May 17 21:55:42 2022: argv[1]: <-c>
-Tue May 17 21:55:42 2022: argv[2]: </usr/bin/cmake -E cmake_echo_color --switch= --progress-dir=/home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles --progress-num=1,2 "Built target strategy-stonks">
-Tue May 17 21:55:42 2022: skipping process with pid: 20126
-Tue May 17 21:55:42 2022: process created with pid: 20127
-Tue May 17 21:55:42 2022: parent pid: 20126
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/bin/cmake>
-Tue May 17 21:55:42 2022: argv[0]: </usr/bin/cmake>
-Tue May 17 21:55:42 2022: argv[1]: <-E>
-Tue May 17 21:55:42 2022: argv[2]: <cmake_echo_color>
-Tue May 17 21:55:42 2022: argv[3]: <--switch=>
-Tue May 17 21:55:42 2022: argv[4]: <--progress-dir=/home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles>
-Tue May 17 21:55:42 2022: argv[5]: <--progress-num=1,2>
-Tue May 17 21:55:42 2022: argv[6]: <Built target strategy-stonks>
-Tue May 17 21:55:42 2022: skipping process with pid: 20127
-Tue May 17 21:55:42 2022: process created with pid: 20128
-Tue May 17 21:55:42 2022: parent pid: 20107
-Tue May 17 21:55:42 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
-Tue May 17 21:55:42 2022: executable: </usr/bin/cmake>
-Tue May 17 21:55:42 2022: argv[0]: </usr/bin/cmake>
-Tue May 17 21:55:42 2022: argv[1]: <-E>
-Tue May 17 21:55:42 2022: argv[2]: <cmake_progress_start>
-Tue May 17 21:55:42 2022: argv[3]: </home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles>
-Tue May 17 21:55:42 2022: argv[4]: <0>
-Tue May 17 21:55:42 2022: skipping process with pid: 20128
-Tue May 17 21:55:42 2022: finalizing json file
-Tue May 17 21:55:42 2022: returned with code: 0
+Tue May 17 22:16:01 2022: build-wrapper, version 6.33 (linux-x86)
+Tue May 17 22:16:01 2022: System name: Linux Nodename: Eric Release: 5.13.0-41-generic Version: #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022 Machine: x86_64
+Tue May 17 22:16:01 2022: socket path: /tmp/build-wrapper-socket.HdOFJp
+Tue May 17 22:16:01 2022: dynamic library found: /home/ereiclo/repos/build-wrapper-linux-x86/libinterceptor-i686.so
+Tue May 17 22:16:01 2022: dynamic library found: /home/ereiclo/repos/build-wrapper-linux-x86/libinterceptor-x86_64.so
+Tue May 17 22:16:01 2022: dynamic library found: /home/ereiclo/repos/build-wrapper-linux-x86/libinterceptor-haswell.so
+Tue May 17 22:16:01 2022: cwd: </home/ereiclo/repos/tareas/design-strategy-stonks>
+Tue May 17 22:16:01 2022: command executed as: <build-wrapper-linux-x86-64 --out-dir bw-output>
+Tue May 17 22:16:01 2022: out-dir absolute path: </home/ereiclo/repos/tareas/design-strategy-stonks/bw-output>
+Tue May 17 22:16:01 2022: command line received: <cmake --build build>
+Tue May 17 22:16:01 2022: env 0: <SHELL=/bin/bash>
+Tue May 17 22:16:01 2022: env 1: <SESSION_MANAGER=local/Eric:@/tmp/.ICE-unix/2345,unix/Eric:/tmp/.ICE-unix/2345>
+Tue May 17 22:16:01 2022: env 2: <QT_ACCESSIBILITY=1>
+Tue May 17 22:16:01 2022: env 3: <COLORTERM=truecolor>
+Tue May 17 22:16:01 2022: env 4: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Tue May 17 22:16:01 2022: env 5: <NVM_INC=/home/ereiclo/.nvm/versions/node/v16.13.2/include/node>
+Tue May 17 22:16:01 2022: env 6: <XDG_MENU_PREFIX=gnome->
+Tue May 17 22:16:01 2022: env 7: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Tue May 17 22:16:01 2022: env 8: <LANGUAGE=es_PE:es>
+Tue May 17 22:16:01 2022: env 9: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Tue May 17 22:16:01 2022: env 10: <SSH_AUTH_SOCK=/run/user/1000/keyring/ssh>
+Tue May 17 22:16:01 2022: env 11: <XMODIFIERS=@im=ibus>
+Tue May 17 22:16:01 2022: env 12: <DESKTOP_SESSION=ubuntu>
+Tue May 17 22:16:01 2022: env 13: <SSH_AGENT_PID=2311>
+Tue May 17 22:16:01 2022: env 14: <GTK_MODULES=gail:atk-bridge>
+Tue May 17 22:16:01 2022: env 15: <DBUS_STARTER_BUS_TYPE=session>
+Tue May 17 22:16:01 2022: env 16: <PWD=/home/ereiclo/repos/tareas/design-strategy-stonks>
+Tue May 17 22:16:01 2022: env 17: <LOGNAME=ereiclo>
+Tue May 17 22:16:01 2022: env 18: <XDG_SESSION_DESKTOP=ubuntu>
+Tue May 17 22:16:01 2022: env 19: <XDG_SESSION_TYPE=x11>
+Tue May 17 22:16:01 2022: env 20: <GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1>
+Tue May 17 22:16:01 2022: env 21: <XAUTHORITY=/run/user/1000/gdm/Xauthority>
+Tue May 17 22:16:01 2022: env 22: <WINDOWPATH=2>
+Tue May 17 22:16:01 2022: env 23: <HOME=/home/ereiclo>
+Tue May 17 22:16:01 2022: env 24: <USERNAME=ereiclo>
+Tue May 17 22:16:01 2022: env 25: <IM_CONFIG_PHASE=1>
+Tue May 17 22:16:01 2022: env 26: <LANG=es_PE.UTF-8>
+Tue May 17 22:16:01 2022: env 27: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Tue May 17 22:16:01 2022: env 28: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Tue May 17 22:16:01 2022: env 29: <VTE_VERSION=6003>
+Tue May 17 22:16:01 2022: env 30: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/3836dbec_9869_4ba6_8155_e1d3b2d7fd4a>
+Tue May 17 22:16:01 2022: env 31: <INVOCATION_ID=ecdfbd6142ac4174a55fc6a456837c53>
+Tue May 17 22:16:01 2022: env 32: <MANAGERPID=2119>
+Tue May 17 22:16:01 2022: env 33: <NVM_DIR=/home/ereiclo/.nvm>
+Tue May 17 22:16:01 2022: env 34: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Tue May 17 22:16:01 2022: env 35: <XDG_SESSION_CLASS=user>
+Tue May 17 22:16:01 2022: env 36: <TERM=xterm-256color>
+Tue May 17 22:16:01 2022: env 37: <LESSOPEN=| /usr/bin/lesspipe %s>
+Tue May 17 22:16:01 2022: env 38: <USER=ereiclo>
+Tue May 17 22:16:01 2022: env 39: <GNOME_TERMINAL_SERVICE=:1.142>
+Tue May 17 22:16:01 2022: env 40: <DISPLAY=:1>
+Tue May 17 22:16:01 2022: env 41: <SHLVL=1>
+Tue May 17 22:16:01 2022: env 42: <NVM_CD_FLAGS=>
+Tue May 17 22:16:01 2022: env 43: <QT_IM_MODULE=ibus>
+Tue May 17 22:16:01 2022: env 44: <DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=792d7cd85d59730f1188b79162843fc5>
+Tue May 17 22:16:01 2022: env 45: <XDG_RUNTIME_DIR=/run/user/1000>
+Tue May 17 22:16:01 2022: env 46: <SONAR_TOKEN=a69fb7333229b3b158e20df6ddaf549cc985ec2c>
+Tue May 17 22:16:01 2022: env 47: <JOURNAL_STREAM=8:53142>
+Tue May 17 22:16:01 2022: env 48: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Tue May 17 22:16:01 2022: env 49: <PATH=~/repos/build-wrapper-linux-x86:~/repos/sonar-scanner-4.7.0.2747-linux/bin:~/repos/sonar-scanner-4.7.0.2747-linux:/home/ereiclo/.nvm/versions/node/v16.13.2/bin:/home/ereiclo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Tue May 17 22:16:01 2022: env 50: <GDMSESSION=ubuntu>
+Tue May 17 22:16:01 2022: env 51: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=792d7cd85d59730f1188b79162843fc5>
+Tue May 17 22:16:01 2022: env 52: <NVM_BIN=/home/ereiclo/.nvm/versions/node/v16.13.2/bin>
+Tue May 17 22:16:01 2022: env 53: <OLDPWD=/home/ereiclo/repos/tareas/design-strategy-stonks/src>
+Tue May 17 22:16:01 2022: env 54: <_=/home/ereiclo/repos/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue May 17 22:16:01 2022: executing: <cmake --build build>
+Tue May 17 22:16:01 2022: initializing json file
+Tue May 17 22:16:01 2022: process created with pid: 21679
+Tue May 17 22:16:01 2022: parent pid: 21678
+Tue May 17 22:16:01 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks>
+Tue May 17 22:16:01 2022: executable: </home/ereiclo/repos/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue May 17 22:16:01 2022: argv[0]: <build-wrapper-linux-x86-64>
+Tue May 17 22:16:01 2022: argv[1]: <-c>
+Tue May 17 22:16:01 2022: argv[2]: <>
+Tue May 17 22:16:01 2022: argv[3]: <cmake>
+Tue May 17 22:16:01 2022: argv[4]: <--build>
+Tue May 17 22:16:01 2022: argv[5]: <build>
+Tue May 17 22:16:01 2022: skipping process with pid: 21679
+Tue May 17 22:16:01 2022: process created with pid: 21680
+Tue May 17 22:16:01 2022: parent pid: 21679
+Tue May 17 22:16:01 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks>
+Tue May 17 22:16:01 2022: executable: </usr/bin/cmake>
+Tue May 17 22:16:01 2022: argv[0]: <cmake>
+Tue May 17 22:16:01 2022: argv[1]: <--build>
+Tue May 17 22:16:01 2022: argv[2]: <build>
+Tue May 17 22:16:01 2022: skipping process with pid: 21680
+Tue May 17 22:16:01 2022: process created with pid: 21681
+Tue May 17 22:16:01 2022: parent pid: 21680
+Tue May 17 22:16:01 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:01 2022: executable: </usr/bin/make>
+Tue May 17 22:16:01 2022: argv[0]: </usr/bin/make>
+Tue May 17 22:16:01 2022: skipping process with pid: 21681
+Tue May 17 22:16:01 2022: process created with pid: 21682
+Tue May 17 22:16:01 2022: parent pid: 21681
+Tue May 17 22:16:01 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:01 2022: executable: </usr/bin/cmake>
+Tue May 17 22:16:01 2022: argv[0]: </usr/bin/cmake>
+Tue May 17 22:16:01 2022: argv[1]: <-S/home/ereiclo/repos/tareas/design-strategy-stonks>
+Tue May 17 22:16:01 2022: argv[2]: <-B/home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:01 2022: argv[3]: <--check-build-system>
+Tue May 17 22:16:01 2022: argv[4]: <CMakeFiles/Makefile.cmake>
+Tue May 17 22:16:01 2022: argv[5]: <0>
+Tue May 17 22:16:01 2022: skipping process with pid: 21682
+Tue May 17 22:16:01 2022: process created with pid: 21683
+Tue May 17 22:16:01 2022: parent pid: 21681
+Tue May 17 22:16:01 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:01 2022: executable: </usr/bin/cmake>
+Tue May 17 22:16:01 2022: argv[0]: </usr/bin/cmake>
+Tue May 17 22:16:01 2022: argv[1]: <-E>
+Tue May 17 22:16:01 2022: argv[2]: <cmake_progress_start>
+Tue May 17 22:16:01 2022: argv[3]: </home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles>
+Tue May 17 22:16:01 2022: argv[4]: </home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles/progress.marks>
+Tue May 17 22:16:01 2022: skipping process with pid: 21683
+Tue May 17 22:16:01 2022: process created with pid: 21684
+Tue May 17 22:16:01 2022: parent pid: 21681
+Tue May 17 22:16:01 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:01 2022: executable: </usr/bin/make>
+Tue May 17 22:16:01 2022: argv[0]: </usr/bin/make>
+Tue May 17 22:16:01 2022: argv[1]: <-f>
+Tue May 17 22:16:01 2022: argv[2]: <CMakeFiles/Makefile2>
+Tue May 17 22:16:01 2022: argv[3]: <all>
+Tue May 17 22:16:01 2022: skipping process with pid: 21684
+Tue May 17 22:16:01 2022: process created with pid: 21685
+Tue May 17 22:16:01 2022: parent pid: 21684
+Tue May 17 22:16:01 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:01 2022: executable: </usr/bin/make>
+Tue May 17 22:16:01 2022: argv[0]: </usr/bin/make>
+Tue May 17 22:16:01 2022: argv[1]: <-f>
+Tue May 17 22:16:01 2022: argv[2]: <CMakeFiles/strategy-stonks.dir/build.make>
+Tue May 17 22:16:01 2022: argv[3]: <CMakeFiles/strategy-stonks.dir/depend>
+Tue May 17 22:16:01 2022: skipping process with pid: 21685
+Tue May 17 22:16:01 2022: process created with pid: 21686
+Tue May 17 22:16:01 2022: parent pid: 21685
+Tue May 17 22:16:01 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:01 2022: executable: </usr/bin/dash>
+Tue May 17 22:16:01 2022: argv[0]: </bin/sh>
+Tue May 17 22:16:01 2022: argv[1]: <-c>
+Tue May 17 22:16:01 2022: argv[2]: <cd /home/ereiclo/repos/tareas/design-strategy-stonks/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ereiclo/repos/tareas/design-strategy-stonks /home/ereiclo/repos/tareas/design-strategy-stonks /home/ereiclo/repos/tareas/design-strategy-stonks/build /home/ereiclo/repos/tareas/design-strategy-stonks/build /home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles/strategy-stonks.dir/DependInfo.cmake --color=>
+Tue May 17 22:16:01 2022: skipping process with pid: 21686
+Tue May 17 22:16:02 2022: process created with pid: 21687
+Tue May 17 22:16:02 2022: parent pid: 21686
+Tue May 17 22:16:02 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:02 2022: executable: </usr/bin/cmake>
+Tue May 17 22:16:02 2022: argv[0]: </usr/bin/cmake>
+Tue May 17 22:16:02 2022: argv[1]: <-E>
+Tue May 17 22:16:02 2022: argv[2]: <cmake_depends>
+Tue May 17 22:16:02 2022: argv[3]: <Unix Makefiles>
+Tue May 17 22:16:02 2022: argv[4]: </home/ereiclo/repos/tareas/design-strategy-stonks>
+Tue May 17 22:16:02 2022: argv[5]: </home/ereiclo/repos/tareas/design-strategy-stonks>
+Tue May 17 22:16:02 2022: argv[6]: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:02 2022: argv[7]: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:02 2022: argv[8]: </home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles/strategy-stonks.dir/DependInfo.cmake>
+Tue May 17 22:16:02 2022: argv[9]: <--color=>
+Tue May 17 22:16:02 2022: skipping process with pid: 21687
+Tue May 17 22:16:02 2022: process created with pid: 21688
+Tue May 17 22:16:02 2022: parent pid: 21684
+Tue May 17 22:16:02 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:02 2022: executable: </usr/bin/make>
+Tue May 17 22:16:02 2022: argv[0]: </usr/bin/make>
+Tue May 17 22:16:02 2022: argv[1]: <-f>
+Tue May 17 22:16:02 2022: argv[2]: <CMakeFiles/strategy-stonks.dir/build.make>
+Tue May 17 22:16:02 2022: argv[3]: <CMakeFiles/strategy-stonks.dir/build>
+Tue May 17 22:16:02 2022: skipping process with pid: 21688
+Tue May 17 22:16:02 2022: process created with pid: 21689
+Tue May 17 22:16:02 2022: parent pid: 21688
+Tue May 17 22:16:02 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:02 2022: executable: </usr/bin/dash>
+Tue May 17 22:16:02 2022: argv[0]: </bin/sh>
+Tue May 17 22:16:02 2022: argv[1]: <-c>
+Tue May 17 22:16:02 2022: argv[2]: </usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/strategy-stonks.dir/src/main.cpp.o">
+Tue May 17 22:16:02 2022: skipping process with pid: 21689
+Tue May 17 22:16:02 2022: process created with pid: 21690
+Tue May 17 22:16:02 2022: parent pid: 21689
+Tue May 17 22:16:02 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:02 2022: executable: </usr/bin/cmake>
+Tue May 17 22:16:02 2022: argv[0]: </usr/bin/cmake>
+Tue May 17 22:16:02 2022: argv[1]: <-E>
+Tue May 17 22:16:02 2022: argv[2]: <cmake_echo_color>
+Tue May 17 22:16:02 2022: argv[3]: <--switch=>
+Tue May 17 22:16:02 2022: argv[4]: <--green>
+Tue May 17 22:16:02 2022: argv[5]: <--progress-dir=/home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles>
+Tue May 17 22:16:02 2022: argv[6]: <--progress-num=1>
+Tue May 17 22:16:02 2022: argv[7]: <Building CXX object CMakeFiles/strategy-stonks.dir/src/main.cpp.o>
+Tue May 17 22:16:02 2022: skipping process with pid: 21690
+Tue May 17 22:16:02 2022: process created with pid: 21691
+Tue May 17 22:16:02 2022: parent pid: 21688
+Tue May 17 22:16:02 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:02 2022: executable: </usr/bin/x86_64-linux-gnu-g++-9>
+Tue May 17 22:16:02 2022: argv[0]: </usr/bin/c++>
+Tue May 17 22:16:02 2022: argv[1]: <-std=gnu++17>
+Tue May 17 22:16:02 2022: argv[2]: <-o>
+Tue May 17 22:16:02 2022: argv[3]: <CMakeFiles/strategy-stonks.dir/src/main.cpp.o>
+Tue May 17 22:16:02 2022: argv[4]: <-c>
+Tue May 17 22:16:02 2022: argv[5]: </home/ereiclo/repos/tareas/design-strategy-stonks/src/main.cpp>
+Tue May 17 22:16:02 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.HdOFJp>
+Tue May 17 22:16:02 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/ereiclo/repos/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Tue May 17 22:16:02 2022: envp[2]: <DESKTOP_SESSION=ubuntu>
+Tue May 17 22:16:02 2022: envp[3]: <XDG_SESSION_CLASS=user>
+Tue May 17 22:16:02 2022: envp[4]: <XDG_SESSION_TYPE=x11>
+Tue May 17 22:16:02 2022: envp[5]: <NVM_INC=/home/ereiclo/.nvm/versions/node/v16.13.2/include/node>
+Tue May 17 22:16:02 2022: envp[6]: <XAUTHORITY=/run/user/1000/gdm/Xauthority>
+Tue May 17 22:16:02 2022: envp[7]: <GDMSESSION=ubuntu>
+Tue May 17 22:16:02 2022: envp[8]: <XMODIFIERS=@im=ibus>
+Tue May 17 22:16:02 2022: envp[9]: <SHELL=/bin/bash>
+Tue May 17 22:16:02 2022: envp[10]: <VTE_VERSION=6003>
+Tue May 17 22:16:02 2022: envp[11]: <JOURNAL_STREAM=8:53142>
+Tue May 17 22:16:02 2022: envp[12]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Tue May 17 22:16:02 2022: envp[13]: <IM_CONFIG_PHASE=1>
+Tue May 17 22:16:02 2022: envp[14]: <USERNAME=ereiclo>
+Tue May 17 22:16:02 2022: envp[15]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Tue May 17 22:16:02 2022: envp[16]: <_=/home/ereiclo/repos/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue May 17 22:16:02 2022: envp[17]: <MANAGERPID=2119>
+Tue May 17 22:16:02 2022: envp[18]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Tue May 17 22:16:02 2022: envp[19]: <PATH=~/repos/build-wrapper-linux-x86:~/repos/sonar-scanner-4.7.0.2747-linux/bin:~/repos/sonar-scanner-4.7.0.2747-linux:/home/ereiclo/.nvm/versions/node/v16.13.2/bin:/home/ereiclo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Tue May 17 22:16:02 2022: envp[20]: <GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1>
+Tue May 17 22:16:02 2022: envp[21]: <SESSION_MANAGER=local/Eric:@/tmp/.ICE-unix/2345,unix/Eric:/tmp/.ICE-unix/2345>
+Tue May 17 22:16:02 2022: envp[22]: <XDG_RUNTIME_DIR=/run/user/1000>
+Tue May 17 22:16:02 2022: envp[23]: <SONAR_TOKEN=a69fb7333229b3b158e20df6ddaf549cc985ec2c>
+Tue May 17 22:16:02 2022: envp[24]: <NVM_BIN=/home/ereiclo/.nvm/versions/node/v16.13.2/bin>
+Tue May 17 22:16:02 2022: envp[25]: <XDG_MENU_PREFIX=gnome->
+Tue May 17 22:16:02 2022: envp[26]: <INVOCATION_ID=ecdfbd6142ac4174a55fc6a456837c53>
+Tue May 17 22:16:02 2022: envp[27]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Tue May 17 22:16:02 2022: envp[28]: <XDG_SESSION_DESKTOP=ubuntu>
+Tue May 17 22:16:02 2022: envp[29]: <SSH_AUTH_SOCK=/run/user/1000/keyring/ssh>
+Tue May 17 22:16:02 2022: envp[30]: <DISPLAY=:1>
+Tue May 17 22:16:02 2022: envp[31]: <HOME=/home/ereiclo>
+Tue May 17 22:16:02 2022: envp[32]: <PWD=/home/ereiclo/repos/tareas/design-strategy-stonks>
+Tue May 17 22:16:02 2022: envp[33]: <SSH_AGENT_PID=2311>
+Tue May 17 22:16:02 2022: envp[34]: <GTK_MODULES=gail:atk-bridge>
+Tue May 17 22:16:02 2022: envp[35]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=792d7cd85d59730f1188b79162843fc5>
+Tue May 17 22:16:02 2022: envp[36]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Tue May 17 22:16:02 2022: envp[37]: <LOGNAME=ereiclo>
+Tue May 17 22:16:02 2022: envp[38]: <NVM_CD_FLAGS=>
+Tue May 17 22:16:02 2022: envp[39]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Tue May 17 22:16:02 2022: envp[40]: <COLORTERM=truecolor>
+Tue May 17 22:16:02 2022: envp[41]: <QT_IM_MODULE=ibus>
+Tue May 17 22:16:02 2022: envp[42]: <SHLVL=1>
+Tue May 17 22:16:02 2022: envp[43]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Tue May 17 22:16:02 2022: envp[44]: <USER=ereiclo>
+Tue May 17 22:16:02 2022: envp[45]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Tue May 17 22:16:02 2022: envp[46]: <OLDPWD=/home/ereiclo/repos/tareas/design-strategy-stonks/src>
+Tue May 17 22:16:02 2022: envp[47]: <LANGUAGE=es_PE:es>
+Tue May 17 22:16:02 2022: envp[48]: <MAKEFLAGS=s>
+Tue May 17 22:16:02 2022: envp[49]: <MFLAGS=-s>
+Tue May 17 22:16:02 2022: envp[50]: <NVM_DIR=/home/ereiclo/.nvm>
+Tue May 17 22:16:02 2022: envp[51]: <MAKE_TERMOUT=/dev/pts/1>
+Tue May 17 22:16:02 2022: envp[52]: <QT_ACCESSIBILITY=1>
+Tue May 17 22:16:02 2022: envp[53]: <DBUS_STARTER_BUS_TYPE=session>
+Tue May 17 22:16:02 2022: envp[54]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/3836dbec_9869_4ba6_8155_e1d3b2d7fd4a>
+Tue May 17 22:16:02 2022: envp[55]: <GNOME_TERMINAL_SERVICE=:1.142>
+Tue May 17 22:16:02 2022: envp[56]: <WINDOWPATH=2>
+Tue May 17 22:16:02 2022: envp[57]: <MAKE_TERMERR=/dev/pts/1>
+Tue May 17 22:16:02 2022: envp[58]: <LANG=es_PE.UTF-8>
+Tue May 17 22:16:02 2022: envp[59]: <TERM=xterm-256color>
+Tue May 17 22:16:02 2022: envp[60]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=792d7cd85d59730f1188b79162843fc5>
+Tue May 17 22:16:02 2022: envp[61]: <MAKELEVEL=3>
+Tue May 17 22:16:02 2022: envp[62]: <LD_PRELOAD=>
+Tue May 17 22:16:02 2022: process created with pid: 21692
+Tue May 17 22:16:02 2022: parent pid: 21691
+Tue May 17 22:16:02 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:02 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Tue May 17 22:16:02 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Tue May 17 22:16:02 2022: argv[1]: <-quiet>
+Tue May 17 22:16:02 2022: argv[2]: <-imultiarch>
+Tue May 17 22:16:02 2022: argv[3]: <x86_64-linux-gnu>
+Tue May 17 22:16:02 2022: argv[4]: <-D_GNU_SOURCE>
+Tue May 17 22:16:02 2022: argv[5]: </home/ereiclo/repos/tareas/design-strategy-stonks/src/main.cpp>
+Tue May 17 22:16:02 2022: argv[6]: <-quiet>
+Tue May 17 22:16:02 2022: argv[7]: <-dumpbase>
+Tue May 17 22:16:02 2022: argv[8]: <main.cpp>
+Tue May 17 22:16:02 2022: argv[9]: <-mtune=generic>
+Tue May 17 22:16:02 2022: argv[10]: <-march=x86-64>
+Tue May 17 22:16:02 2022: argv[11]: <-auxbase-strip>
+Tue May 17 22:16:02 2022: argv[12]: <CMakeFiles/strategy-stonks.dir/src/main.cpp.o>
+Tue May 17 22:16:02 2022: argv[13]: <-std=gnu++17>
+Tue May 17 22:16:02 2022: argv[14]: <-fasynchronous-unwind-tables>
+Tue May 17 22:16:02 2022: argv[15]: <-fstack-protector-strong>
+Tue May 17 22:16:02 2022: argv[16]: <-Wformat>
+Tue May 17 22:16:02 2022: argv[17]: <-Wformat-security>
+Tue May 17 22:16:02 2022: argv[18]: <-fstack-clash-protection>
+Tue May 17 22:16:02 2022: argv[19]: <-fcf-protection>
+Tue May 17 22:16:02 2022: argv[20]: <-o>
+Tue May 17 22:16:02 2022: argv[21]: </tmp/cc9EJwEm.s>
+Tue May 17 22:16:02 2022: skipping process with pid: 21692
+Tue May 17 22:16:02 2022: process created with pid: 21693
+Tue May 17 22:16:02 2022: parent pid: 21691
+Tue May 17 22:16:02 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:02 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Tue May 17 22:16:02 2022: argv[0]: <as>
+Tue May 17 22:16:02 2022: argv[1]: <--64>
+Tue May 17 22:16:02 2022: argv[2]: <-o>
+Tue May 17 22:16:02 2022: argv[3]: <CMakeFiles/strategy-stonks.dir/src/main.cpp.o>
+Tue May 17 22:16:02 2022: argv[4]: </tmp/cc9EJwEm.s>
+Tue May 17 22:16:02 2022: skipping process with pid: 21693
+Tue May 17 22:16:02 2022: process created with pid: 21694
+Tue May 17 22:16:02 2022: parent pid: 21688
+Tue May 17 22:16:02 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:02 2022: executable: </usr/bin/dash>
+Tue May 17 22:16:02 2022: argv[0]: </bin/sh>
+Tue May 17 22:16:02 2022: argv[1]: <-c>
+Tue May 17 22:16:02 2022: argv[2]: </usr/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles --progress-num=2 "Linking CXX executable strategy-stonks">
+Tue May 17 22:16:02 2022: skipping process with pid: 21694
+Tue May 17 22:16:02 2022: process created with pid: 21695
+Tue May 17 22:16:02 2022: parent pid: 21694
+Tue May 17 22:16:02 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:02 2022: executable: </usr/bin/cmake>
+Tue May 17 22:16:02 2022: argv[0]: </usr/bin/cmake>
+Tue May 17 22:16:02 2022: argv[1]: <-E>
+Tue May 17 22:16:02 2022: argv[2]: <cmake_echo_color>
+Tue May 17 22:16:02 2022: argv[3]: <--switch=>
+Tue May 17 22:16:02 2022: argv[4]: <--green>
+Tue May 17 22:16:02 2022: argv[5]: <--bold>
+Tue May 17 22:16:02 2022: argv[6]: <--progress-dir=/home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles>
+Tue May 17 22:16:02 2022: argv[7]: <--progress-num=2>
+Tue May 17 22:16:02 2022: argv[8]: <Linking CXX executable strategy-stonks>
+Tue May 17 22:16:02 2022: skipping process with pid: 21695
+Tue May 17 22:16:02 2022: process created with pid: 21696
+Tue May 17 22:16:02 2022: parent pid: 21688
+Tue May 17 22:16:02 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:02 2022: executable: </usr/bin/cmake>
+Tue May 17 22:16:02 2022: argv[0]: </usr/bin/cmake>
+Tue May 17 22:16:02 2022: argv[1]: <-E>
+Tue May 17 22:16:02 2022: argv[2]: <cmake_link_script>
+Tue May 17 22:16:02 2022: argv[3]: <CMakeFiles/strategy-stonks.dir/link.txt>
+Tue May 17 22:16:02 2022: argv[4]: <--verbose=>
+Tue May 17 22:16:02 2022: skipping process with pid: 21696
+Tue May 17 22:16:02 2022: process created with pid: 21697
+Tue May 17 22:16:02 2022: parent pid: 21696
+Tue May 17 22:16:02 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:02 2022: executable: </usr/bin/x86_64-linux-gnu-g++-9>
+Tue May 17 22:16:02 2022: argv[0]: </usr/bin/c++>
+Tue May 17 22:16:02 2022: argv[1]: <CMakeFiles/strategy-stonks.dir/src/main.cpp.o>
+Tue May 17 22:16:02 2022: argv[2]: <-o>
+Tue May 17 22:16:02 2022: argv[3]: <strategy-stonks>
+Tue May 17 22:16:02 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.HdOFJp>
+Tue May 17 22:16:02 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/ereiclo/repos/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so>
+Tue May 17 22:16:02 2022: envp[2]: <DESKTOP_SESSION=ubuntu>
+Tue May 17 22:16:02 2022: envp[3]: <XDG_SESSION_CLASS=user>
+Tue May 17 22:16:02 2022: envp[4]: <XDG_SESSION_TYPE=x11>
+Tue May 17 22:16:02 2022: envp[5]: <NVM_INC=/home/ereiclo/.nvm/versions/node/v16.13.2/include/node>
+Tue May 17 22:16:02 2022: envp[6]: <XAUTHORITY=/run/user/1000/gdm/Xauthority>
+Tue May 17 22:16:02 2022: envp[7]: <GDMSESSION=ubuntu>
+Tue May 17 22:16:02 2022: envp[8]: <XMODIFIERS=@im=ibus>
+Tue May 17 22:16:02 2022: envp[9]: <SHELL=/bin/bash>
+Tue May 17 22:16:02 2022: envp[10]: <VTE_VERSION=6003>
+Tue May 17 22:16:02 2022: envp[11]: <JOURNAL_STREAM=8:53142>
+Tue May 17 22:16:02 2022: envp[12]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Tue May 17 22:16:02 2022: envp[13]: <IM_CONFIG_PHASE=1>
+Tue May 17 22:16:02 2022: envp[14]: <USERNAME=ereiclo>
+Tue May 17 22:16:02 2022: envp[15]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Tue May 17 22:16:02 2022: envp[16]: <_=/home/ereiclo/repos/build-wrapper-linux-x86/build-wrapper-linux-x86-64>
+Tue May 17 22:16:02 2022: envp[17]: <MANAGERPID=2119>
+Tue May 17 22:16:02 2022: envp[18]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Tue May 17 22:16:02 2022: envp[19]: <PATH=~/repos/build-wrapper-linux-x86:~/repos/sonar-scanner-4.7.0.2747-linux/bin:~/repos/sonar-scanner-4.7.0.2747-linux:/home/ereiclo/.nvm/versions/node/v16.13.2/bin:/home/ereiclo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Tue May 17 22:16:02 2022: envp[20]: <GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1>
+Tue May 17 22:16:02 2022: envp[21]: <SESSION_MANAGER=local/Eric:@/tmp/.ICE-unix/2345,unix/Eric:/tmp/.ICE-unix/2345>
+Tue May 17 22:16:02 2022: envp[22]: <XDG_RUNTIME_DIR=/run/user/1000>
+Tue May 17 22:16:02 2022: envp[23]: <SONAR_TOKEN=a69fb7333229b3b158e20df6ddaf549cc985ec2c>
+Tue May 17 22:16:02 2022: envp[24]: <NVM_BIN=/home/ereiclo/.nvm/versions/node/v16.13.2/bin>
+Tue May 17 22:16:02 2022: envp[25]: <XDG_MENU_PREFIX=gnome->
+Tue May 17 22:16:02 2022: envp[26]: <INVOCATION_ID=ecdfbd6142ac4174a55fc6a456837c53>
+Tue May 17 22:16:02 2022: envp[27]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Tue May 17 22:16:02 2022: envp[28]: <XDG_SESSION_DESKTOP=ubuntu>
+Tue May 17 22:16:02 2022: envp[29]: <SSH_AUTH_SOCK=/run/user/1000/keyring/ssh>
+Tue May 17 22:16:02 2022: envp[30]: <DISPLAY=:1>
+Tue May 17 22:16:02 2022: envp[31]: <HOME=/home/ereiclo>
+Tue May 17 22:16:02 2022: envp[32]: <PWD=/home/ereiclo/repos/tareas/design-strategy-stonks>
+Tue May 17 22:16:02 2022: envp[33]: <SSH_AGENT_PID=2311>
+Tue May 17 22:16:02 2022: envp[34]: <GTK_MODULES=gail:atk-bridge>
+Tue May 17 22:16:02 2022: envp[35]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=792d7cd85d59730f1188b79162843fc5>
+Tue May 17 22:16:02 2022: envp[36]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Tue May 17 22:16:02 2022: envp[37]: <LOGNAME=ereiclo>
+Tue May 17 22:16:02 2022: envp[38]: <NVM_CD_FLAGS=>
+Tue May 17 22:16:02 2022: envp[39]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Tue May 17 22:16:02 2022: envp[40]: <COLORTERM=truecolor>
+Tue May 17 22:16:02 2022: envp[41]: <QT_IM_MODULE=ibus>
+Tue May 17 22:16:02 2022: envp[42]: <SHLVL=1>
+Tue May 17 22:16:02 2022: envp[43]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Tue May 17 22:16:02 2022: envp[44]: <USER=ereiclo>
+Tue May 17 22:16:02 2022: envp[45]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Tue May 17 22:16:02 2022: envp[46]: <OLDPWD=/home/ereiclo/repos/tareas/design-strategy-stonks/src>
+Tue May 17 22:16:02 2022: envp[47]: <LANGUAGE=es_PE:es>
+Tue May 17 22:16:02 2022: envp[48]: <MAKEFLAGS=s>
+Tue May 17 22:16:02 2022: envp[49]: <MFLAGS=-s>
+Tue May 17 22:16:02 2022: envp[50]: <NVM_DIR=/home/ereiclo/.nvm>
+Tue May 17 22:16:02 2022: envp[51]: <MAKE_TERMOUT=/dev/pts/1>
+Tue May 17 22:16:02 2022: envp[52]: <QT_ACCESSIBILITY=1>
+Tue May 17 22:16:02 2022: envp[53]: <DBUS_STARTER_BUS_TYPE=session>
+Tue May 17 22:16:02 2022: envp[54]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/3836dbec_9869_4ba6_8155_e1d3b2d7fd4a>
+Tue May 17 22:16:02 2022: envp[55]: <GNOME_TERMINAL_SERVICE=:1.142>
+Tue May 17 22:16:02 2022: envp[56]: <WINDOWPATH=2>
+Tue May 17 22:16:02 2022: envp[57]: <MAKE_TERMERR=/dev/pts/1>
+Tue May 17 22:16:02 2022: envp[58]: <LANG=es_PE.UTF-8>
+Tue May 17 22:16:02 2022: envp[59]: <TERM=xterm-256color>
+Tue May 17 22:16:02 2022: envp[60]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=792d7cd85d59730f1188b79162843fc5>
+Tue May 17 22:16:02 2022: envp[61]: <MAKELEVEL=3>
+Tue May 17 22:16:02 2022: envp[62]: <LD_PRELOAD=>
+Tue May 17 22:16:02 2022: process created with pid: 21698
+Tue May 17 22:16:02 2022: parent pid: 21697
+Tue May 17 22:16:02 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:02 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/collect2>
+Tue May 17 22:16:02 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/collect2>
+Tue May 17 22:16:02 2022: argv[1]: <-plugin>
+Tue May 17 22:16:02 2022: argv[2]: </usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so>
+Tue May 17 22:16:02 2022: argv[3]: <-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper>
+Tue May 17 22:16:02 2022: argv[4]: <-plugin-opt=-fresolution=/tmp/cc3QvQBR.res>
+Tue May 17 22:16:02 2022: argv[5]: <-plugin-opt=-pass-through=-lgcc_s>
+Tue May 17 22:16:02 2022: argv[6]: <-plugin-opt=-pass-through=-lgcc>
+Tue May 17 22:16:02 2022: argv[7]: <-plugin-opt=-pass-through=-lc>
+Tue May 17 22:16:02 2022: argv[8]: <-plugin-opt=-pass-through=-lgcc_s>
+Tue May 17 22:16:02 2022: argv[9]: <-plugin-opt=-pass-through=-lgcc>
+Tue May 17 22:16:02 2022: argv[10]: <--build-id>
+Tue May 17 22:16:02 2022: argv[11]: <--eh-frame-hdr>
+Tue May 17 22:16:02 2022: argv[12]: <-m>
+Tue May 17 22:16:02 2022: argv[13]: <elf_x86_64>
+Tue May 17 22:16:02 2022: argv[14]: <--hash-style=gnu>
+Tue May 17 22:16:02 2022: argv[15]: <--as-needed>
+Tue May 17 22:16:02 2022: argv[16]: <-dynamic-linker>
+Tue May 17 22:16:02 2022: argv[17]: </lib64/ld-linux-x86-64.so.2>
+Tue May 17 22:16:02 2022: argv[18]: <-pie>
+Tue May 17 22:16:02 2022: argv[19]: <-z>
+Tue May 17 22:16:02 2022: argv[20]: <now>
+Tue May 17 22:16:02 2022: argv[21]: <-z>
+Tue May 17 22:16:02 2022: argv[22]: <relro>
+Tue May 17 22:16:02 2022: argv[23]: <-o>
+Tue May 17 22:16:02 2022: argv[24]: <strategy-stonks>
+Tue May 17 22:16:02 2022: argv[25]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o>
+Tue May 17 22:16:02 2022: argv[26]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o>
+Tue May 17 22:16:02 2022: argv[27]: </usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o>
+Tue May 17 22:16:02 2022: argv[28]: <-L/usr/lib/gcc/x86_64-linux-gnu/9>
+Tue May 17 22:16:02 2022: argv[29]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu>
+Tue May 17 22:16:02 2022: argv[30]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib>
+Tue May 17 22:16:02 2022: argv[31]: <-L/lib/x86_64-linux-gnu>
+Tue May 17 22:16:02 2022: argv[32]: <-L/lib/../lib>
+Tue May 17 22:16:02 2022: argv[33]: <-L/usr/lib/x86_64-linux-gnu>
+Tue May 17 22:16:02 2022: argv[34]: <-L/usr/lib/../lib>
+Tue May 17 22:16:02 2022: argv[35]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..>
+Tue May 17 22:16:02 2022: argv[36]: <CMakeFiles/strategy-stonks.dir/src/main.cpp.o>
+Tue May 17 22:16:02 2022: argv[37]: <-lstdc++>
+Tue May 17 22:16:02 2022: argv[38]: <-lm>
+Tue May 17 22:16:02 2022: argv[39]: <-lgcc_s>
+Tue May 17 22:16:02 2022: argv[40]: <-lgcc>
+Tue May 17 22:16:02 2022: argv[41]: <-lc>
+Tue May 17 22:16:02 2022: argv[42]: <-lgcc_s>
+Tue May 17 22:16:02 2022: argv[43]: <-lgcc>
+Tue May 17 22:16:02 2022: argv[44]: </usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o>
+Tue May 17 22:16:02 2022: argv[45]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o>
+Tue May 17 22:16:02 2022: skipping process with pid: 21698
+Tue May 17 22:16:02 2022: process created with pid: 21699
+Tue May 17 22:16:02 2022: parent pid: 21698
+Tue May 17 22:16:02 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:02 2022: executable: </usr/bin/x86_64-linux-gnu-ld.bfd>
+Tue May 17 22:16:02 2022: argv[0]: </usr/bin/ld>
+Tue May 17 22:16:02 2022: argv[1]: <-plugin>
+Tue May 17 22:16:02 2022: argv[2]: </usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so>
+Tue May 17 22:16:02 2022: argv[3]: <-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper>
+Tue May 17 22:16:02 2022: argv[4]: <-plugin-opt=-fresolution=/tmp/cc3QvQBR.res>
+Tue May 17 22:16:02 2022: argv[5]: <-plugin-opt=-pass-through=-lgcc_s>
+Tue May 17 22:16:02 2022: argv[6]: <-plugin-opt=-pass-through=-lgcc>
+Tue May 17 22:16:02 2022: argv[7]: <-plugin-opt=-pass-through=-lc>
+Tue May 17 22:16:02 2022: argv[8]: <-plugin-opt=-pass-through=-lgcc_s>
+Tue May 17 22:16:02 2022: argv[9]: <-plugin-opt=-pass-through=-lgcc>
+Tue May 17 22:16:02 2022: argv[10]: <--build-id>
+Tue May 17 22:16:02 2022: argv[11]: <--eh-frame-hdr>
+Tue May 17 22:16:02 2022: argv[12]: <-m>
+Tue May 17 22:16:02 2022: argv[13]: <elf_x86_64>
+Tue May 17 22:16:02 2022: argv[14]: <--hash-style=gnu>
+Tue May 17 22:16:02 2022: argv[15]: <--as-needed>
+Tue May 17 22:16:02 2022: argv[16]: <-dynamic-linker>
+Tue May 17 22:16:02 2022: argv[17]: </lib64/ld-linux-x86-64.so.2>
+Tue May 17 22:16:02 2022: argv[18]: <-pie>
+Tue May 17 22:16:02 2022: argv[19]: <-z>
+Tue May 17 22:16:02 2022: argv[20]: <now>
+Tue May 17 22:16:02 2022: argv[21]: <-z>
+Tue May 17 22:16:02 2022: argv[22]: <relro>
+Tue May 17 22:16:02 2022: argv[23]: <-o>
+Tue May 17 22:16:02 2022: argv[24]: <strategy-stonks>
+Tue May 17 22:16:02 2022: argv[25]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o>
+Tue May 17 22:16:02 2022: argv[26]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o>
+Tue May 17 22:16:02 2022: argv[27]: </usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o>
+Tue May 17 22:16:02 2022: argv[28]: <-L/usr/lib/gcc/x86_64-linux-gnu/9>
+Tue May 17 22:16:02 2022: argv[29]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu>
+Tue May 17 22:16:02 2022: argv[30]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib>
+Tue May 17 22:16:02 2022: argv[31]: <-L/lib/x86_64-linux-gnu>
+Tue May 17 22:16:02 2022: argv[32]: <-L/lib/../lib>
+Tue May 17 22:16:02 2022: argv[33]: <-L/usr/lib/x86_64-linux-gnu>
+Tue May 17 22:16:02 2022: argv[34]: <-L/usr/lib/../lib>
+Tue May 17 22:16:02 2022: argv[35]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..>
+Tue May 17 22:16:02 2022: argv[36]: <CMakeFiles/strategy-stonks.dir/src/main.cpp.o>
+Tue May 17 22:16:02 2022: argv[37]: <-lstdc++>
+Tue May 17 22:16:02 2022: argv[38]: <-lm>
+Tue May 17 22:16:02 2022: argv[39]: <-lgcc_s>
+Tue May 17 22:16:02 2022: argv[40]: <-lgcc>
+Tue May 17 22:16:02 2022: argv[41]: <-lc>
+Tue May 17 22:16:02 2022: argv[42]: <-lgcc_s>
+Tue May 17 22:16:02 2022: argv[43]: <-lgcc>
+Tue May 17 22:16:02 2022: argv[44]: </usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o>
+Tue May 17 22:16:02 2022: argv[45]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o>
+Tue May 17 22:16:02 2022: skipping process with pid: 21699
+Tue May 17 22:16:02 2022: process created with pid: 21700
+Tue May 17 22:16:02 2022: parent pid: 21684
+Tue May 17 22:16:02 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:02 2022: executable: </usr/bin/dash>
+Tue May 17 22:16:02 2022: argv[0]: </bin/sh>
+Tue May 17 22:16:02 2022: argv[1]: <-c>
+Tue May 17 22:16:02 2022: argv[2]: </usr/bin/cmake -E cmake_echo_color --switch= --progress-dir=/home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles --progress-num=1,2 "Built target strategy-stonks">
+Tue May 17 22:16:02 2022: skipping process with pid: 21700
+Tue May 17 22:16:02 2022: process created with pid: 21701
+Tue May 17 22:16:02 2022: parent pid: 21700
+Tue May 17 22:16:02 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:02 2022: executable: </usr/bin/cmake>
+Tue May 17 22:16:02 2022: argv[0]: </usr/bin/cmake>
+Tue May 17 22:16:02 2022: argv[1]: <-E>
+Tue May 17 22:16:02 2022: argv[2]: <cmake_echo_color>
+Tue May 17 22:16:02 2022: argv[3]: <--switch=>
+Tue May 17 22:16:02 2022: argv[4]: <--progress-dir=/home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles>
+Tue May 17 22:16:02 2022: argv[5]: <--progress-num=1,2>
+Tue May 17 22:16:02 2022: argv[6]: <Built target strategy-stonks>
+Tue May 17 22:16:02 2022: skipping process with pid: 21701
+Tue May 17 22:16:02 2022: process created with pid: 21702
+Tue May 17 22:16:02 2022: parent pid: 21681
+Tue May 17 22:16:02 2022: working directory: </home/ereiclo/repos/tareas/design-strategy-stonks/build>
+Tue May 17 22:16:02 2022: executable: </usr/bin/cmake>
+Tue May 17 22:16:02 2022: argv[0]: </usr/bin/cmake>
+Tue May 17 22:16:02 2022: argv[1]: <-E>
+Tue May 17 22:16:02 2022: argv[2]: <cmake_progress_start>
+Tue May 17 22:16:02 2022: argv[3]: </home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles>
+Tue May 17 22:16:02 2022: argv[4]: <0>
+Tue May 17 22:16:02 2022: skipping process with pid: 21702
+Tue May 17 22:16:02 2022: finalizing json file
+Tue May 17 22:16:02 2022: returned with code: 0

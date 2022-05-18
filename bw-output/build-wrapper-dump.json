@@ -20,7 +20,7 @@
 "-c",
 "/home/ereiclo/repos/tareas/design-strategy-stonks/src/main.cpp"],
 "env":[
-"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.UVNphp",
+"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.HdOFJp",
 "SQ_WRAPPER_LIBRARY=/home/ereiclo/repos/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so",
 "DESKTOP_SESSION=ubuntu",
 "XDG_SESSION_CLASS=user",
@@ -93,7 +93,7 @@
 "-o",
 "strategy-stonks"],
 "env":[
-"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.UVNphp",
+"SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.HdOFJp",
 "SQ_WRAPPER_LIBRARY=/home/ereiclo/repos/build-wrapper-linux-x86/libinterceptor-${PLATFORM}.so",
 "DESKTOP_SESSION=ubuntu",
 "XDG_SESSION_CLASS=user",
