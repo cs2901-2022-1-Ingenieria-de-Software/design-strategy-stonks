@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ereiclo/repos/tareas/design-strategy-stonks/src/main.cpp
+iostream
+-
+memory
+-
+string
+-
+vector
+-
+fstream
+-
+

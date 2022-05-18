@@ -1,0 +1,3 @@
+/home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles/rebuild_cache.dir
+/home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles/edit_cache.dir
+/home/ereiclo/repos/tareas/design-strategy-stonks/build/CMakeFiles/strategy-stonks.dir
